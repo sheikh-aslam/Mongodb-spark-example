@@ -5,9 +5,9 @@ This is a simple example based on resourse i found over the internet.
 This example will help you to get started with mongodb data analysis using spark.
 
 
-#===============================================================================#
-#======================== Command to submit the job ============================#
-#===============================================================================#
+#=============================#
+#= Command to submit the job =#
+#=============================#
 spark-submit \
   --class "momgodb.spark.java.stockprice.DataImporter" \
   --master local[4] \
